@@ -1,0 +1,1 @@
+The 1 dimensional array will run faster because it doesn't have to enter second for loop and traverse one more array. 
