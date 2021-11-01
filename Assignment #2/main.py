@@ -39,6 +39,10 @@ class Classifier(Enum):
     VERTICAL_BAR = "(\\|).*"
     QUESTION_MARK = "(\\?).*"
     SYMBOL = "(\\@|#|$|&|%)"
+     # Hexa
+    HEXA = "^[0-9A-F]+$"
+    # OCTAL
+    OCTAL = "\b0[0-7]*\b"
     
 class Token:
 
