@@ -1,0 +1,7 @@
+Runtime from fastest to slowest:
+Stack Dynamic -> Heap Dynamic -> Static
+Stack Dynamic is fastest because it use stack structure to allocate memory in contiguos block so
+so the size of array is irrelevant.
+while Heap Dynamic allocate memory in random order and have alot of flexibility which make it slower.
+static allocate memory before runtime in static manner thus it has to find memory for each element of array
+which make it the slowest
